@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тикетон Demo - Выбор мест</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="movie-container">
+        <label>Фильм: <strong style="color: #4cd137;">Аватар 3: Путь воды</strong> (2000 ₸)</label>
+        
+        <ul class="showcase">
+            <li>
+                <div class="seat"></div>
+                <small>Свободно</small>
+            </li>
+            <li>
+                <div class="seat selected"></div>
+                <small>Выбрано</small>
+            </li>
+            <li>
+                <div class="seat occupied"></div>
+                <small>Занято</small>
+            </li>
+        </ul>
+
+        <div class="container">
+            <div class="screen"></div>
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+        </div>
+
+        <p class="text">
+            Выбрано мест: <span id="count">0</span> на сумму <span id="total">0</span> ₸
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
